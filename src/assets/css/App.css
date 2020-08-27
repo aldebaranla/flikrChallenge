@@ -1,0 +1,72 @@
+/*Using google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+body{
+  font-family: 'Roboto Condensed', sans-serifm;
+}
+
+/* WEB PAGE SETTINGS */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.tags{
+  margin-right: 10px;
+  font-weight: 100;
+}
+
+/* MAIN HEADER */
+.mainhead {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .mainhead {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.mainhead p:last-child {
+  margin-bottom: 0;
+}
+
+.mainhead h1 {
+  font-weight: 300;
+}
+
+.mainhead .container {
+  max-width: 40rem;
+}
+.noTags{
+  color: #6c757d!;
+  font-size: x-small;
+  padding-top: 20px;
+}
+
+/* FOOTER */
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
